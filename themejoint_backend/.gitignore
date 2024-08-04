@@ -1,0 +1,11 @@
+node_modules/
+dist/
+tmp/
+npm-debug.log
+
+.vscode/
+.DS_Store
+.env
+Thumbs.db
+out-tsc/
+/*.REST
