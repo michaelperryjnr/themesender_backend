@@ -6,7 +6,7 @@ export default interface IUser extends Document {
   password: string;
   name: string;
   avatar: string;
-  role: string;
+  role: "admin" | "user" | "superAdmin";
   about: string;
   contacts: string[];
   groups: string[];
