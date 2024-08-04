@@ -15,7 +15,7 @@ app.get("/", (req: Request, res: Response) => {
   res.send("This is themesender backend");
 });
 
-app.use("/api/user", userRoutes);
+app.use("/api/users", userRoutes);
 
 const App = () => {
   app.listen(PORT, () => {
