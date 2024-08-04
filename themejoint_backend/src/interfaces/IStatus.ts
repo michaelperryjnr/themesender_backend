@@ -4,8 +4,8 @@ import IMessageMedia from "./IMessageMedia";
 
 export default interface IStatus extends Document {
   user: IUser["_id"];
-  text: string;
+  statusText: string;
   media: IMessageMedia[];
   timestamp: Date;
-  views: IUser["_id"][];
+  viewers: IUser["_id"][];
 }
