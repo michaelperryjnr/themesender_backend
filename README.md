@@ -411,6 +411,4 @@ export const validateRequest = (validationRules: any) => {
 
 This project is licensed under the MIT License - see the [LICENSE](http://mptettey.vercel.app) file for details.
 
-```css
 Feel free to customize the content to fit your specific implementation or add additional sections as needed.
-```
